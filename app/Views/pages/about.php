@@ -1,3 +1,6 @@
-<h3>
+    <?=  $this->extend('templates/template'); ?>
+    <?=  $this->section('content'); ?>
+
     Ini ABOUT
-</h3>
+
+    <?=  $this->endSection(); ?>    

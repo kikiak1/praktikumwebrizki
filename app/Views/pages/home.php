@@ -1,3 +1,6 @@
-<h3>
-    Ini HOME
-</h3>
+    <?=  $this->extend('templates/template'); ?>
+    <?=  $this->section('content'); ?>
+
+    ini home
+
+    <?=  $this->endSection(); ?>    
